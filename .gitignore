@@ -1,0 +1,14 @@
+# Never commit private SSH keys or SSH runtime state
+.ssh/*
+!.ssh/config
+!.ssh/authorized_keys
+!.ssh/*.pub
+
+# Vim plugins are installed by vim-plug
+.vim/plugged/
+.vim/pack/
+
+# Per-user git identity, created by the installer
+.gitconfig.local
+
+.DS_Store
